@@ -146,6 +146,22 @@
     border-radius: 1rem;
 }
 
+.settings {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
+
+    background-color: #000;
+    
+}
+
+.settingsButton {
+    border: none;
+    border-style: hidden;
+    background-color: #bd1212;
+}
+
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
