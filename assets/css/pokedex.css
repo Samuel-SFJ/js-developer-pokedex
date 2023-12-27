@@ -144,9 +144,10 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+    margin: 1rem;
 }
 
-.settings {
+/* .settings {
     display: flex;
     flex-direction: row;
     justify-content: right;
@@ -160,7 +161,7 @@
     border: none;
     border-style: hidden;
     background-color: #bd1212;
-}
+} */
 
 @media screen and (min-width: 380px) {
     .pokemons {
