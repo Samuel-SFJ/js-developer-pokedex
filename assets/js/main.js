@@ -20,6 +20,7 @@ function convertPokemonToLi(pokemon) {
                 <img src="${pokemon.photo}"
                      alt="${pokemon.name}">
             </div>
+            Attack = ${pokemon.Attack}
         </li>
     `
 }
@@ -48,5 +49,6 @@ loadMoreButton.addEventListener('click', () => {
 })
 
 settingButton.addEventListener('click', () => {
+    
     limit = Number(window.prompt("Display quantity per load"))
 })
