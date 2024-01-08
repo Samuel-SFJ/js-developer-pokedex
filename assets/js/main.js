@@ -20,7 +20,13 @@ function convertPokemonToLi(pokemon) {
                 <img src="${pokemon.photo}"
                      alt="${pokemon.name}">
             </div>
+            HP = ${pokemon.HP}
             Attack = ${pokemon.Attack}
+            Defense = ${pokemon.Defense}
+            Sp.Atk = ${pokemon.Sp_Atk}
+            Sp.Def = ${pokemon.Sp_Def}
+            Speed = ${pokemon.Speed}
+            
         </li>
     `
 }
