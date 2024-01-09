@@ -20,13 +20,24 @@ function convertPokemonToLi(pokemon) {
                 <img src="${pokemon.photo}"
                      alt="${pokemon.name}">
             </div>
-            HP = ${pokemon.HP}
-            Attack = ${pokemon.Attack}
-            Defense = ${pokemon.Defense}
-            Sp.Atk = ${pokemon.Sp_Atk}
-            Sp.Def = ${pokemon.Sp_Def}
-            Speed = ${pokemon.Speed}
-            
+            <div class="statWindow">
+            <ol class="statsText">
+                <li> HP : </li>
+                <li> Attack : </li>
+                <li> Defense : </li>
+                <li> Sp.Atk : </li>
+                <li> Sp.Def : </li>
+                <li> Speed : </li>
+            </ol>
+            <ol class="statsValues">
+                <li> ${pokemon.HP} </li>
+                <li> ${pokemon.Attack} </li>
+                <li> ${pokemon.Defense} </li>
+                <li> ${pokemon.Sp_Atk} </li>
+                <li> ${pokemon.Sp_Def} </li>
+                <li> ${pokemon.Speed} </li>
+        </ol>
+            </div>
         </li>
     `
 }

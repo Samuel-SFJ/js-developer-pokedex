@@ -12,5 +12,4 @@ class Pokemon {
     Sp_Atk;
     Sp_Def;
     Speed;
-    Total;
 }
